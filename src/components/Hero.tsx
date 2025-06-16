@@ -55,7 +55,11 @@ const Hero: React.FC<HeroProps> = ({ onViewProjects }) => {
             <div className="w-32 h-32 md:w-40 md:h-40 rounded-full bg-gradient-to-br from-cyan-400 via-purple-500 to-pink-500 p-1 animate-pulse">
               <div className="w-full h-full rounded-full bg-slate-800 flex items-center justify-center">
                 <div className="w-24 h-24 md:w-32 md:h-32 rounded-full bg-gradient-to-br from-slate-700 to-slate-600 flex items-center justify-center">
-                  <span className="text-2xl md:text-3xl font-bold text-cyan-400">RZ</span>
+                  <img 
+                  src="images/logo.png" 
+                  alt="RZ Logo" 
+                  className="w-full h-full object-cover rounded-full"
+                />
                 </div>
               </div>
             </div>
