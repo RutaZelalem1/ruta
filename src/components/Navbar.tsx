@@ -49,7 +49,11 @@ const Navbar: React.FC<NavbarProps> = ({ currentPage, onNavigate }) => {
           >
             <div className="w-10 h-10 rounded-full bg-gradient-to-br from-cyan-400 via-purple-500 to-pink-500 p-0.5 group-hover:scale-110 transition-transform duration-300">
               <div className="w-full h-full rounded-full bg-slate-900 flex items-center justify-center">
-                <span className="text-sm font-bold text-cyan-400">RZ</span>
+                <img 
+                  src="images/logo.png" 
+                  alt="RZ Logo" 
+                  className="w-full h-full object-cover rounded-full"
+                />
               </div>
             </div>
             <div className="hidden sm:block">
@@ -124,3 +128,4 @@ const Navbar: React.FC<NavbarProps> = ({ currentPage, onNavigate }) => {
 };
 
 export default Navbar;
+
